@@ -56,7 +56,7 @@ ol {
   height: 298px;
   overflow: overlay;
 }
-.content__list-item:not(:last-child){
+.content__list-item:not(:last-child) {
   margin-bottom: 30px;
 }
 .search-form {
@@ -142,7 +142,7 @@ fieldset {
   border: none;
 }
 .search-form__fieldset-title {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
@@ -158,7 +158,7 @@ fieldset {
   border-top: 1px solid white;
   border-right: none;
   border-left: none;
-  font-family: 'Fira Sans Condensed',sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
@@ -202,7 +202,8 @@ fieldset {
   width: 15px;
   height: 15px;
   background-color: white;
-}label:has(.search-form__label-text):hover {
+}
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 .search-form__textfield:focus {
@@ -261,6 +262,6 @@ button:focus-visible {
   display: flex;
   width: fit-content;
   cursor: pointer;
-  gap:5px;
-  align-items:center;
+  gap: 5px;
+  align-items: center;
 }
